@@ -1,2 +1,2 @@
 # rainbowsheep964-web
-Rainbow_sheep964's website.
+Uses a simple js script to make a rainbow background. Maybe could use some nice fonts.  
