@@ -1,9 +1,16 @@
 body {
-  margin: 0px;
-  overflow: hidden;
+    margin: 0px;
+    //overflow: hidden;
+}
+#content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
 }
 .back {
-  width: 16.667%;
-  height: 100vh;
-  display: inline-block;
+    position: fixed;
+    top: 0;
+    width: 16.667%;
+    height: 100vh;
+    display: inline-block;
 }

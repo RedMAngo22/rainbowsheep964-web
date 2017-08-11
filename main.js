@@ -7,8 +7,8 @@ var colors=[
 "#CC99FF",
 ];
 window.addEventListener("load",function() {
-  var backing=document.getElementById("backing");
-  for (var i=0;i<6;i++) {
-    backing.innerHTML+=('<div class="back" style="background-color: '+colors[i]+';"></div>');
-  }
+    var backing=document.getElementById("backing");
+    for (var i=0;i<6;i++) {
+        backing.innerHTML+=('<div class="back" style="background-color: '+colors[i]+';left: '+16.667*i+'%;"></div>');
+    }
 });
